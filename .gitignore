@@ -7,6 +7,8 @@
 .settings/
 *.sublime-workspace
 
+# Compiled intellij file
+*.iml
 
 # Compiled class file
 *.class
