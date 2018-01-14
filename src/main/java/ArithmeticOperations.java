@@ -27,4 +27,13 @@ public final class ArithmeticOperations {
         return max(a,max(b,c));
     }
 
+    public static double firstSequence(int n){
+        if(n == 1){
+            return 1.0;
+        }
+        else{
+            return 1.0/n + firstSequence(n-1 );
+        }
+    }
+
 }
