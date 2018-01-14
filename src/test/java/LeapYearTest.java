@@ -3,7 +3,7 @@ import static org.hamcrest.CoreMatchers.*;
 
 import org.junit.Test;
 
-public class isLeapYearTest {
+public class LeapYearTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void year0IsNotAValidYear(){

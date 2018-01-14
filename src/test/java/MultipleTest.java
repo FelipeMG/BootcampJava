@@ -3,7 +3,7 @@ import static org.hamcrest.CoreMatchers.*;
 
 import org.junit.Test;
 
-public class IsMultipleTest {
+public class MultipleTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void number4IsNotMultipleOf0(){

@@ -3,7 +3,7 @@ import static org.hamcrest.CoreMatchers.*;
 
 import org.junit.Test;
 
-public class IsEvenTest {
+public class EvenNumberTest {
 
     @Test
     public void number0IsEven(){

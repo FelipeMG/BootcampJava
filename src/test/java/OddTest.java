@@ -3,7 +3,7 @@ import static org.hamcrest.CoreMatchers.*;
 
 import org.junit.Test;
 
-public class IsOddTest {
+public class OddTest {
 
     @Test
     public void number0IsNotOdd(){
