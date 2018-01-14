@@ -21,7 +21,7 @@ public class FirstSequenceTest {
     }
 
     @Test
-    public void whenNumberIs4valueIs1_833(){
+    public void whenNumberIs4valueIs2_833(){
         assertThat(Math.floor( ArithmeticOperations.firstSequence(4) * 1000) / 1000 , is(2.083) );
     }
 
