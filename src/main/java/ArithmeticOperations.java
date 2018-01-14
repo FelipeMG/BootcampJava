@@ -11,5 +11,12 @@ public final class ArithmeticOperations {
         return a % b == 0;
     }
 
+    public static boolean isEven(int number){
+        return isMultiple(number, 2);
+    }
+
+    public static boolean isOdd(int number){
+        return !isMultiple(number, 2);
+    }
 
 }
