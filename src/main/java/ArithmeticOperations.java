@@ -45,4 +45,8 @@ public final class ArithmeticOperations {
         }
     }
 
+    public static int lastDigit(int n){
+        return n % 10;
+    }
+
 }
