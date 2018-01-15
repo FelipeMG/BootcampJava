@@ -49,4 +49,11 @@ public final class ArithmeticOperations {
         return n % 10;
     }
 
+    public static int truncateLastDigit(int n){
+        if(n<10){
+            return n;
+        }
+        return (n - lastDigit(n))/10;
+    }
+
 }
